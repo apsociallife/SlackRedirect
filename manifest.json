@@ -1,8 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Slack Redirect",
-  "version": "1.0.0",
+  "version": "1",
   "description": "Redirects Slack archive links to open directly in the browser instead of trying to open the Slack app",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "SlackRedirect@joivid.com"
+    }
+  },
   "permissions": [
     "webRequest",
     "webRequestBlocking",
@@ -17,4 +22,3 @@
     "96": "SlackRedirect_96x96.png"
   }
 }
-
