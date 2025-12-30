@@ -5,7 +5,11 @@
   "description": "Redirects Slack archive links to open directly in the browser instead of trying to open the Slack app",
   "browser_specific_settings": {
     "gecko": {
-      "id": "SlackRedirect@joivid.com"
+      "id": "SlackRedirect@joivid.com",
+      "data_collection_permissions": {
+        "required": ["none"],
+        "optional": []
+      }
     }
   },
   "permissions": [
