@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Slack Redirect",
+  "version": "1.0.0",
+  "description": "Redirects Slack archive links to open directly in the browser instead of trying to open the Slack app",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "*://*.slack.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "SlackRedirect_48x48.png",
+    "96": "SlackRedirect_96x96.png"
+  }
+}
+

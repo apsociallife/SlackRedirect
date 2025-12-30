@@ -1,0 +1,15 @@
+# Firefox extension development
+*.xpi
+web-ext-artifacts/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
